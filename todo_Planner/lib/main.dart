@@ -13,15 +13,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // Application name
-      title: 'Flutter Demo',
+      title: 'TwoDos',
       // Application theme data, you can set the colors for the application as
       // you want
       theme: ThemeData(
         // useMaterial3: false,
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.cyan,
       ),
       // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'My Daily Planner'),
     );
   }
 }
@@ -39,9 +39,10 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Hello, World!',
+          "What's your plan for today?",
         ),
       ),
+      backgroundColor: Colors.cyan,
     );
   }
 }
