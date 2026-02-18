@@ -26,3 +26,14 @@ A clean, beginner-friendly Todo application built with Flutter and Hive.
 3. Generate Hive adapters:
    ```bash
    flutter pub run build_runner build
+
+## App Preview
+
+<p align="center">
+  <img src="screenshot/Homepage.png" width="350" title="Post List">
+  <img src="screenshot/add_task.png" width="350" title="Add Post">
+  <img src="screenshot/edit_task.png" width="350" title="Edit Post">
+  <img src="screenshot/task_page.png" width="350" title="Add Post">
+  <img src="screenshot/75%25_done_task.png" width="350" title="Edit Post">
+<img src="screenshot/100%_done_task.png" width="350" title="Edit Post">
+</p>

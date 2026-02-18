@@ -17,14 +17,14 @@ class TodoPlannerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Todo Planner',
+      title: 'TwoDos',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF008B8B),
-          primary: const Color(0xFF008B8B),
-          secondary: const Color(0xFFFF6B6B),
-          surface: const Color(0xFFF5F5F5),
+          seedColor: const Color(0xFF2D5A27),
+          primary: const Color(0xFFE1C699),
+          secondary: const Color(0xFFFAFAFA),
+          surface: const Color(0xFF2D5A27),
         ),
         useMaterial3: true,
         cardTheme: CardThemeData(

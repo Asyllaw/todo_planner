@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () => _navigateToAddEdit(),
         backgroundColor: Theme.of(context).colorScheme.secondary,
-        foregroundColor: Colors.white,
+        foregroundColor: Colors.black,
         icon: const Icon(Icons.add),
         label: const Text('New Task'),
       ),
@@ -159,7 +159,7 @@ class _HomePageState extends State<HomePage> {
           ),
           const SizedBox(height: 8),
           Text(
-            'Tap the button below to create one',
+            'Tap the button below to Create',
             style: TextStyle(
               fontSize: 14,
               color: Colors.grey.shade500,

@@ -186,7 +186,7 @@ class _AddEditTaskPageState extends State<AddEditTaskPage> {
                 ),
                 const SizedBox(width: 8),
                 Expanded(
-                  child: _buildPriorityChip('medium', 'Medium', Colors.orange),
+                  child: _buildPriorityChip('medium', 'Medium', Colors.amber),
                 ),
                 const SizedBox(width: 8),
                 Expanded(
